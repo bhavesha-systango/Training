@@ -21,3 +21,4 @@ p1 = Person("bhavesh", 22, "indian")
 print(p1.greet())
 print(p1.get_my_age())
 print(p1.eligible_for_vote())
+
