@@ -1,0 +1,4 @@
+  ProductName  ProductCost     Country  ProductSalesTax  ProductFinalPrice
+0       ponds          150       india               10                165
+1   boro-plus          200  portuguese               20                240
+2    himalaya          500       spain               30                650
