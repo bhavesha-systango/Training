@@ -1,6 +1,7 @@
 import csv
 import pandas
-import fs as fs
+import fs 
+
 
 csv_rowlist = [["ProductName","ProductCost","Country"], ["ponds",150,"india"],
                ["boro-plus",200,"portuguese"],["himalaya",500,"spain"]]
@@ -8,7 +9,7 @@ with open('users.csv', 'w') as file:
     writer = csv.writer(file)
     writer.writerows(csv_rowlist)
 
-with open('users.csv', 'r',) as file:
+with open('users.csv', 'r') as file:
     reader = csv.reader(file, delimiter = '\t')
     for row in reader:
         print(row)
@@ -30,8 +31,3 @@ print(df)
 with open("output10.csv", "w") as file:
     dfd = repr(df)
     file.write(dfd + "\n")
-
-
-
-
-      

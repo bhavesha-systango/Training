@@ -1,6 +1,8 @@
 import csv
 import pandas
 import fs as fs
+
+
 if __name__=='__main__':
     class calculation_of_tax:
 
@@ -44,8 +46,4 @@ c1.write_file()
 c1.read_file()
 data = c1.calculate_final_price()
 c1.output_to_file(data)
-
-
-
-
       
