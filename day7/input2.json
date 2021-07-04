@@ -1,0 +1,17 @@
+[
+    {
+        "tax": "10",
+        "ProductCost": "150",
+        "Country": "india"
+    },
+    {
+        "tax": "20",
+        "ProductCost": "200",
+        "Country": "portuguese"
+    },
+    {
+        "tax": "30",
+        "ProductCost": "500",
+        "Country": "spain"
+    }
+]
